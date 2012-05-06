@@ -19,7 +19,7 @@ ohlohj.OhlohAPI interface is the one you may want to look at first.
 ### Getting Started with [Google App Engine](https://developers.google.com/appengine/) ###
 Just add ohlohj-core-1.0.0.jar and ohlohj-appengine-1.0.0.jar to your application classpath.
 It is possible to call the time consuming OhlohAPIs asynchronously using
-ohlohj.appengine.FetchAsyncOhloh. See also Code Examples.
+ohlohj.appengine.FetchAsyncOhloh. See also [Code Examples](https://github.com/cloudysunny14/Ohlohj/wiki/Code-Examples).
  
 Licence
 ----------
