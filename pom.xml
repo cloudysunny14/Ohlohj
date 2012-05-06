@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>org.cloudysunny14.ohlohj</groupId>
+    <artifactId>ohlohj</artifactId>
+    <version>1.0,0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>ohlohj</name>
+    <url>http://maven.apache.org</url>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>org.cloudysunny14.ohlohj</id>
+            <name>ohlohj Repository</name>
+            <uniqueVersion>false</uniqueVersion>
+            <url>file:${user.home}/maven2/</url>
+        </snapshotRepository>
+    </distributionManagement>
+    <modules>
+        <module>ohlohj-core</module>
+        <module>ohlohj-appengine</module> 
+    </modules>
+</project>
