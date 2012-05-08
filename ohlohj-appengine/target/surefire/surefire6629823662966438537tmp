@@ -1,0 +1,32 @@
+#surefire
+#Tue May 08 16:54:14 JST 2012
+testClassesDirectory=/Ohlohj/ohlohj-appengine/target/test-classes
+classPathUrl.4=/Users/boxyz02/.m2/repository/com/google/appengine/appengine-api-labs/1.6.5/appengine-api-labs-1.6.5.jar
+classPathUrl.3=/Users/boxyz02/.m2/repository/com/google/appengine/appengine-api-1.0-sdk/1.6.1/appengine-api-1.0-sdk-1.6.1.jar
+classPathUrl.2=/Ohlohj/ohlohj-core/target/ohlohj-core-1.0.0-SNAPSHOT.jar
+useManifestOnlyJar=true
+classPathUrl.1=/Ohlohj/ohlohj-appengine/target/classes
+reportsDirectory=/Ohlohj/ohlohj-appengine/target/surefire-reports
+classPathUrl.0=/Ohlohj/ohlohj-appengine/target/test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
+testSuiteDefinitionTestSourceDirectory=/Ohlohj/ohlohj-appengine/src/test/java
+surefireClassPathUrl.1=/Users/boxyz02/.m2/repository/org/apache/maven/surefire/surefire-api/2.7.1/surefire-api-2.7.1.jar
+surefireClassPathUrl.0=/Users/boxyz02/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.7.1/surefire-junit4-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=/Ohlohj/ohlohj-appengine/target/test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+includes2=**/*TestCase.java
+enableAssertions=true
+includes1=**/*Test.java
+failIfNoTests=false
+includes0=**/Test*.java
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+classPathUrl.7=/Users/boxyz02/.m2/repository/junit/junit/4.7/junit-4.7.jar
+childDelegation=false
+classPathUrl.6=/Users/boxyz02/.m2/repository/com/google/appengine/appengine-api-stubs/1.6.5/appengine-api-stubs-1.6.5.jar
+classPathUrl.5=/Users/boxyz02/.m2/repository/com/google/appengine/appengine-testing/1.6.5/appengine-testing-1.6.5.jar

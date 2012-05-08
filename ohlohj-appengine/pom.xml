@@ -2,15 +2,42 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.cloudysunny14.ohlohj</groupId>
+    <groupId>com.github.cloudysunny14</groupId>
         <artifactId>ohlohj-appengine</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>ohlohj-appengine</name>
-    <url>http://maven.apache.org</url>
+    <url>https://github.com/cloudysunny14/Ohlohj/</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <issueManagement>
+        <system>GitHubIssues</system>
+        <url>https://github.com/cloudysunny14/Ohlohj/issues/</url>
+    </issueManagement>
+    <mailingLists>
+        <mailingList>
+            <name>ohlohj</name>
+            <subscribe>ohlohj-subscribe@googlegroups.com</subscribe>
+            <unsubscribe>ohlohj-unsubscribe@googlegroups.com</unsubscribe>
+            <post>ohlohj@googlegroups.com</post>
+            <archive>http://groups.google.com/group/ohlohj</archive>
+        </mailingList>
+    </mailingLists>
+    <developers>
+        <developer>
+            <id>cloudysunny14</id>
+            <name>cloudysunny14</name>
+            <email>cloudysunny14@gmail.com</email>
+            <url>http://cloudysunny14.blogspot.jp/</url>
+            <roles>
+                <role>lead</role>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <timezone>-9</timezone>
+        </developer>
+    </developers>
     <build>
         <defaultGoal>install</defaultGoal>
         <plugins>
@@ -88,9 +115,9 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>org.cloudysunny14.ohlohj</groupId>
+            <groupId>com.github.cloudysunny14</groupId>
             <artifactId>ohlohj-core</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.google.appengine</groupId>
